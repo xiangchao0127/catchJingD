@@ -1,0 +1,64 @@
+09:00-10:00  练习差的月份
+10:05-11:00  练习
+11:05-11:50  练习
+
+             
+    
+
+
+1:00-2:00   观察者模式
+2:05-3:00   xml model 互转
+3:05-4:00   model json 互转
+4:05-5:00   java爬取网页数据
+5:05-6:00   XIANGMU LIAOJIE
+
+
+
+7:05-8:00   
+8:05-9:00    
+
+
+
+
+
+
+
+理想  将来   专心习惯享受   静  享受当下
+
+
+
+select Month(t.jzrq),SUM(t.fse) FROM st_collection_unit_business_details t where Year(t.jzrq) ='2016' and t.YWMXLX in (01,02) GROUP BY month(t.JZRQ)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&&!(CollectionBusinessStatus.协商后业务办结.getName().equals(stCollectionPersonalBusinessDetail.getExtension().getStep())||
+                CollectionBusinessStatus.转入撤销业务办结.getName().equals(stCollectionPersonalBusinessDetail.getExtension().getStep())||
+                CollectionBusinessStatus.正常办结.getName().equals(stCollectionPersonalBusinessDetail.getExtension().getStep())||
+                CollectionBusinessStatus.转出失败业务办结.getName().equals(stCollectionPersonalBusinessDetail.getExtension().getStep()))
